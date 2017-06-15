@@ -1,0 +1,252 @@
+/*
+Project Name: Relaxr_web
+Client: Relaxr
+Author: Jinat Khan
+Developer @GA in D.C
+*/
+
+
+body {
+     font-family: 'Open Sans', sans-serif;
+     height: 2680px;
+     margin: 0;
+     padding: 0;
+         
+}
+
+
+header{
+  margin: 0px;
+  padding: 0px;
+  height: 26%;
+}
+/*Background image*/
+
+div.background1{
+ background: url('../images/header_bg.jpg');
+ background-position: center;
+ background-size: cover;
+ height: 100%;
+ padding: 0px;
+ margin: 0 auto;
+}
+
+/* RelaxLogo*/
+
+h1.Relaxr_logo {
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0;
+  padding: 30px 0px 0px 80px;
+}
+
+/*logoColor:white*/
+
+h1.white{
+  color: white;
+}
+
+/*slogal text_center*/
+
+div.slogan{
+  text-align: center;
+  margin-top: 180px;
+}
+
+/*sologan color*/
+
+h2.slogan {
+  color: white;
+  font-size: 50px;
+  font-weight:600;
+}
+
+
+/*Button_getItNow*/
+h3.button {
+  background-color: yellow;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight:800;
+  height: 30px;margin: 0 auto;
+  margin: 0 auto;
+  margin: 50px;
+  padding-top: 10px;
+  text-align: center;
+  width: 200px;
+  
+}
+
+
+main{
+  height:61%;
+  margin:0px;
+  padding: 0px;
+}
+
+/*Benefit background color*/
+section.benefits_section{
+  height: 38%;
+  margin: 0;
+  padding: 0;
+}
+
+div.benefits{
+  display: block;
+  padding: 100px 0px 0px 100px;
+}
+
+/*Benefit heading*/
+h4 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0px;
+  }
+/*Benefit list*/
+ div.p {
+  font-size: 20px;
+  font-weight:200px;
+  line-height:130%;
+  width: 60%;
+}
+/* benefit list padding*/
+
+ ul {
+  
+  padding: 25px 0px 0px 60px;
+}
+ /*Feature_section*/
+ section.feature_section{
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 31%;
+
+ }
+ 
+ div.flex_child{
+
+ }
+
+div.blue_box{
+  display: block;
+  background-color: blue;
+  height: 100px;
+  margin-top: 200px; 
+  width:100px;
+}
+
+
+
+p.feature{
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+
+/* Review/quote */
+
+section.review{
+  background-color: #033048;
+  font-size:18px;
+  height: 24%;
+  position:relative;
+
+
+}
+
+div.quote{
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+
+article.quote {
+  font-style: italic;
+  font-weight: 200;
+}
+
+/* Amanda */
+
+h5{
+  font-weight: 600;
+}
+
+/*  Signup button*/
+
+
+section.Signup_section{
+  background-color: yellow;
+  height: 7%;
+  position: relative;
+}
+
+/* button positin*/
+
+div.Signup_button{
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+}
+
+/*button text white*/
+
+h6{
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+footer{
+  background-color: #121212;
+  height: 13%;
+
+}
+
+/* logo*/
+
+h1.yellow {
+color: #f9e42e;
+text-align: center;
+margin-top: 0px;
+padding: 50px 0px 30px 0px;
+}
+
+div.social_media{
+  margin: 0 auto;
+  width: 10%;
+}
+
+img.twitter{
+   padding: 0px 0px 0px 40px;
+}
+
+/*
+img.facebook{
+  padding: 0px 0px 0px 40px;
+}
+*/
+
+
+p2{
+
+color: white;
+font-size: 9px;
+font-weight: 600;
+margin: 100px 0px 0px auto;
+text-align: center;
+}
+
+
+
